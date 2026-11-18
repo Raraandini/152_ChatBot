@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="header-info">
+                <!-- Avatar Profil Robot langsung pakai link online -->
+                <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Bella&backgroundColor=f472b6" alt="Bot Avatar" class="avatar-header">
+                <h1>Chatbot AI</h1>
+            </div>
+        </header>
+        
+        <main class="chat-box" id="chat-box">
+            <!-- Pesan Bot Pertama -->
+            <div class="message bot">
+                <!-- Foto profil robot di chat -->
+                <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Bella&backgroundColor=f472b6" alt="Bot Avatar" class="avatar">
+                <div class="bubble">
+                    Halo! Ada yang bisa saya bantu hari ini? 🌸
+                </div>
+            </div>
+        </main>
+
+        <footer class="chat-input-area">
+            <div class="input-wrapper">
+                <input type="text" id="user-input" placeholder="Ketik pesan Anda..." autocomplete="off">
+                <button id="send-btn">Kirim</button>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
